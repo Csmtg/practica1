@@ -23,6 +23,7 @@ p {
  
 }
 body {
+  background-color: black;
   margin: 0;
   padding: 0; 
   width: 100%;
@@ -30,12 +31,12 @@ body {
 }
 
 .b1{
-    height: 100vh;
-    width: 100vh;
+    height: auto;
+    width: auto;
     margin: auto;
-    background: url(portada2.jpg) no-repeat 100% 43%;
+    background: url(portada2.jpg) no-repeat 100% 30%;
     top: 0;
-    display: table;
+    display: block;
     background-size: cover;
 }
 
@@ -54,7 +55,7 @@ body {
 
 .content h1{
   font-family: 'Century Gothic', sans-serif;
-  color: #f9f3f4;
+  color: #f9f3f5;
   font-size: 500%;
   text-shadow: 0 0 300px #000;
 
@@ -81,7 +82,7 @@ body {
 body {
   font-family: "Lato", sans-serif;
 }
-.sidenav {
+.menu {/*menu*/
     height: 100%;
     width: 0%;
     position: fixed;
@@ -94,20 +95,7 @@ body {
     padding-top: 60px;
 }
 
-.sidenav a {
-    padding: 8px 8px 8px 32px;
-    text-decoration: none;
-    font-size: 25px;
-    color: #818181;
-    display: block;
-    transition: 0.3s;
-}
-
-.sidenav a:hover {
-    color: #f1f1f1;
-}
-
-.sidenav .closebtn {
+.menu .closebtn {
     position: absolute;
     top: 0;
     right: 25px;
@@ -133,8 +121,8 @@ body {
 }
 
 @media screen and (max-height: 450px) {
-  .sidenav {padding-top: 15px;}
-  .sidenav a {font-size: 18px;}
+  .menu {padding-top: 15px;}
+  .menu a {font-size: 18px;}
 }
 
 /*
